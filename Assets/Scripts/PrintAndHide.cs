@@ -17,6 +17,6 @@ public class PrintAndHide : MonoBehaviour
     void Update()
     {
         ++i;
-        Debug.Log(this.gameObject.name + i);
+        Debug.Log(this.gameObject.name + ":" + i);
     }
 }
